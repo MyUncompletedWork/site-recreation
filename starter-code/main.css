@@ -11,41 +11,73 @@ h1, h2 {
   margin: 0;
 }
 img {
-
+  border-color: skyblue;
+  border-style: dotted;
+  padding: 6px;
+  display: inline;
+  margin-top: 2%;
 }
 input {
 
 }
 button {
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5px;
 
 }
 nav ul {
+  list-style: none;
+  margin: 1% 0;
+  padding-left: 0;
+  padding-bottom: 15px;
 
 }
 nav ul li {
+  display: inline;
+  margin: auto 9px;
 
 }
 .header {
+  background-color: lightcyan;
 
 }
 .header h1 {
+  display: inline-block;
+  margin: 5% auto 40px 15px;
+  vertical-align: top;
 
 }
 .footer {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  height: 300px;
 
 }
 .content {
+  margin: auto auto auto 20%;
 
 }
 .row {
-
+  column-count: 3;
+  max-width: 60%;
 }
 .column {
-
+padding: 10px;
+color: white;
+height: 250px;
 }
 .note {
-
+background-color: blue;
+height: 200px;
+padding: 10px;
 }
 .request {
-
+background-color: white;
+color: black;
+border: solid lightgrey;
+height: 199px;
+padding: 10px;
+border-width: 1px;
 }
